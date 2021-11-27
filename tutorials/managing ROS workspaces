@@ -18,4 +18,6 @@ echo $ROS_PACKAGE_PATH
 If everything goes fine, you should get the following:
 
 user:~/catkin_ws$ echo $ROS_PACKAGE_PATH
-/home/user/catkin_ws/src:/home/user/catkin_ws/src:...
+/home/user/catkin_ws/src:/home/user/catkin_ws/src:... others workaspace
+
+As you can see, your catkin workspace is now on top of the catkin_ws.
