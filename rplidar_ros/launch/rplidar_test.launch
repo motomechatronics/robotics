@@ -1,0 +1,6 @@
+<launch>
+	<include file="/home/ubuntu/catkin_ws/src/rplidar_ros/launch/view_rplidar.launch"/>
+
+	<node pkg="rplidar_ros" type="rplidar_read.py" name="scan_node" output ="screen">
+	</node>
+</launch>
