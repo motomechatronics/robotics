@@ -21,3 +21,4 @@ user:~/catkin_ws$ echo $ROS_PACKAGE_PATH
 /home/user/catkin_ws/src:/home/user/catkin_ws/src:... others workaspace
 
 As you can see, your catkin workspace is now on top of the catkin_ws.
+To create others workspace, repeat the instructions. Take care to create the new directory at the same level of catkin_ws.
