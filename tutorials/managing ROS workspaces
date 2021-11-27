@@ -10,3 +10,12 @@ cd ..
 catkin_make
 go to catkin_ws
 source devel/setup.bash
+
+To make sure your workspace is properly overlayed by the setup script, you can check the ROS_PACKAGE_PATH environment variable with the following command.
+
+echo $ROS_PACKAGE_PATH
+
+If everything goes fine, you should get the following:
+
+user:~/catkin_ws$ echo $ROS_PACKAGE_PATH
+/home/user/catkin_ws/src:/home/user/catkin_ws/src:...
