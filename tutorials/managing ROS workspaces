@@ -1,0 +1,10 @@
+How to manage ROS workspaces in my local computer?
+The catkin_ws directory is known as the catkin workspace or ROS workspace, and it is basically the place where you will have to place all the new ROS packages that you create. 
+How do you create one of these workspaces? 
+
+Create a ROS catkion workspace
+First of all, let's create the folder where we will create our ROS workspace.
+
+mkdir -p ~/catkin_ws/src
+cd ..
+catkin_make
