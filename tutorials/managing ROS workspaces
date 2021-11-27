@@ -9,7 +9,7 @@ mkdir -p ~/catkin_ws/src
 cd ..
 catkin_make
 go to catkin_ws
-source devel/setup.bash
+so
 
 To make sure your workspace is properly overlayed by the setup script, you can check the ROS_PACKAGE_PATH environment variable with the following command.
 
@@ -22,3 +22,11 @@ user:~/catkin_ws$ echo $ROS_PACKAGE_PATH
 
 As you can see, your catkin workspace is now on top of the catkin_ws.
 To create others workspace, repeat the instructions. Take care to create the new directory at the same level of catkin_ws.
+
+it is possible write the bashrc file as:
+
+sudo nano ~/.bashrc
+
+add at the end
+
+source /home/ubuntu/catkin_ws/devel/setup.bash
