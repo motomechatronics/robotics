@@ -8,3 +8,5 @@ First of all, let's create the folder where we will create our ROS workspace.
 mkdir -p ~/catkin_ws/src
 cd ..
 catkin_make
+go to catkin_ws
+source devel/setup.bash
